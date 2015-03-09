@@ -244,5 +244,10 @@ ggplot(data=meanStepsByDayType)+
 
 ![](PA1_template_files/figure-html/dayTypePlot-1.png) 
 
-End of Work
+```r
+# Some clean up work. Remove the objects created
+rm(list=ls())
+# End of work
+```
+
 

@@ -168,7 +168,10 @@ ggplot(data=meanStepsByDayType)+
   facet_wrap(~day.type, nrow=2) + 
   ggtitle("Variation of Average number of Steps per Interval")+
   labs(x="Interval",y="Average number of Steps")
+
+# Some clean up work. Remove the objects created
+rm(list=ls())
+# End of work
 ```
 
-End of Work
 
